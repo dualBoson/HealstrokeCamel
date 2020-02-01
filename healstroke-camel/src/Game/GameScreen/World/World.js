@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Player from './Player/Player';
+import Desert from './Desert/Desert';
 
-export default class GameScreen extends React.Component{
+import './World.css';
+
+export default class World extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="World">
+				<Player />
+				<Desert />
+			</div>
 		);
 	}
 };

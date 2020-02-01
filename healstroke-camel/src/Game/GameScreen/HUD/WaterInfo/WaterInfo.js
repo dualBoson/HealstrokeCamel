@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import WaterBar from './WaterBar/WaterBar';
+import WaterBottle from './WaterBottle/WaterBottle';
 
-export default class GameScreen extends React.Component{
+import './WaterInfo.css';
+
+export default class WaterInfo extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Water-Info">
+				<WaterBar />
+				<WaterBottle />
+			</div>
 		);
 	}
 };

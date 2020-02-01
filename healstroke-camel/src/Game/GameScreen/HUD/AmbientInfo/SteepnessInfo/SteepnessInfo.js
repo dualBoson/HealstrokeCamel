@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import AmbientInfoStructure from '../AmbientInfoStructure/AmbientInfoStructure';
+import SteepnessSymbol from './SteepnessSymbol/SteepnessSymbol';
+import SteepnessBar from './SteepnessBar/SteepnessBar';
 
-export default class GameScreen extends React.Component{
+import './SteepnessInfo.css';
+
+export default class SteepnessInfo extends React.Component{
 
 	render() {
 		
 		return (
+			<AmbientInfoStructure
+				ambientSymbol={ <SteepnessSymbol /> }
+				ambientBar={ <SteepnessBar /> }
+			/>
 		);
 	}
 };
+

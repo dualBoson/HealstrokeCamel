@@ -1,12 +1,18 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import RepairHatchStructure from '../RepairHatchStructure/RepairHatchStructure';
 
-export default class GameScreen extends React.Component{
+import './HeartHatch.css';
+
+export default class HeartHatch extends React.Component{
 
 	render() {
 		
 		return (
+			<RepairHatchStructure
+				organHatchImage="Heart Hatch Image"
+				open={this.props.open}
+			/>
 		);
 	}
 };

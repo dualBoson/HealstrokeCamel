@@ -1,15 +1,18 @@
 import React	from 'react';
 
-import './Header.css';
+import './Bar.css';
 
-export default class Header extends React.Component{
+export default class Bar extends React.Component{
 
 	render() {
 		
 		return (
-			<header className="Header">
-				HealStrokeCamel
-			</header>
+			<div>
+				Bar
+				{ this.props.orientation }
+				{ this.props.color }
+				{ this.props.percentage }
+			</div>
 		);
 	}
 };

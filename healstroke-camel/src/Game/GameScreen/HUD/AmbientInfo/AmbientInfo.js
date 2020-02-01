@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import SteepnessInfo from './SteepnessInfo/SteepnessInfo';
+import TemperatureInfo from './TemperatureInfo/TemperatureInfo';
+import WindInfo from './WindInfo/WindInfo';
 
-export default class GameScreen extends React.Component{
+import './AmbientInfo.css';
+
+export default class AmbientInfo extends React.Component{
 
 	render() {
 		
 		return (
+			<div>
+				<SteepnessInfo />
+				<TemperatureInfo />
+				<WindInfo />
+			</div>
 		);
 	}
 };

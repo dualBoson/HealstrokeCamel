@@ -1,12 +1,23 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Item from './Item/Item';
 
-export default class GameScreen extends React.Component{
+import './Inventory.css';
+
+export default class Inventory extends React.Component{
 
 	render() {
 		
+
+		const componentGrid = [
+			<Item count={3} />, <Item count={3} />, <Item count={3} />, <Item count={3} />,
+			<Item count={3} />, <Item count={3} />, <Item count={3} />
+		]
+		
 		return (
+			<div class="Inventory">
+				{ componentGrid }
+			</div>
 		);
 	}
 };

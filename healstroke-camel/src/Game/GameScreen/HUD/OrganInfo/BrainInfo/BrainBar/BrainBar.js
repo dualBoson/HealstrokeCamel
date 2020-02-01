@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Bar from '@commonComp/Bar/Bar';
 
-export default class GameScreen extends React.Component{
+import './BrainBar.css';
+
+export default class BrainBar extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Brain-Bar">
+				<Bar
+					orientation="horizontal"
+					color="grey"
+					percentage={ this.props.brainPercentage }
+				/>
+			</div>
 		);
 	}
 };

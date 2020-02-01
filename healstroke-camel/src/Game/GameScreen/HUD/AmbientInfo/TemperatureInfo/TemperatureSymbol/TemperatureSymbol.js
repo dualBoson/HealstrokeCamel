@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import GameSymbol from '@commonComp/GameSymbol/GameSymbol';
 
-export default class GameScreen extends React.Component{
+import './TemperatureSymbol.css';
+
+export default class TemperatureSymbol extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Temperature-Symbol">
+				<GameSymbol
+					image="Temperature Image"
+				/>
+			</div>
 		);
 	}
 };

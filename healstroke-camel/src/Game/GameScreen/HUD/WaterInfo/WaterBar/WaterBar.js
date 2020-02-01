@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Bar from '@commonComp/Bar/Bar';
 
-export default class GameScreen extends React.Component{
+import './WaterBar.css';
+
+export default class WaterBar extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Water-Bar">
+				<Bar
+					orientation="vertical"
+					color="blue"
+					percentage={ this.props.waterPercentage }
+				/>
+			</div>
 		);
 	}
 };

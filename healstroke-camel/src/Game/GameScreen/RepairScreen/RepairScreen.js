@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Camel from './Camel/Camel';
+import Inventory from './Inventory/Inventory';
 
-export default class GameScreen extends React.Component{
+import './RepairScreen.css';
+
+export default class RepairScreen extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Repair-Screen">
+				<Camel />
+				<Inventory />
+			</div>
 		);
 	}
 };

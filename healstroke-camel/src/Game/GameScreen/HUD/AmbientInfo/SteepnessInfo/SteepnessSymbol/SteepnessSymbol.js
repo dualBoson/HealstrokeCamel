@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import GameSymbol from '@commonComp/GameSymbol/GameSymbol';
 
-export default class GameScreen extends React.Component{
+import './SteepnessSymbol.css';
+
+export default class SteepnessSymbol extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Steepness-Symbol">
+				<GameSymbol
+					image="Steepness Image"
+				/>
+			</div>
 		);
 	}
 };

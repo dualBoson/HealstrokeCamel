@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import AmbientInfoStructure from '../AmbientInfoStructure/AmbientInfoStructure';
+import TemperatureSymbol from './TemperatureSymbol/TemperatureSymbol';
+import TemperatureBar from './TemperatureBar/TemperatureBar';
 
-export default class GameScreen extends React.Component{
+import './TemperatureInfo.css';
+
+export default class TemperatureInfo extends React.Component{
 
 	render() {
 		
 		return (
+			<AmbientInfoStructure
+				ambientSymbol={ <TemperatureSymbol /> }
+				ambientBar={ <TemperatureBar /> }
+			/>
 		);
 	}
 };
+

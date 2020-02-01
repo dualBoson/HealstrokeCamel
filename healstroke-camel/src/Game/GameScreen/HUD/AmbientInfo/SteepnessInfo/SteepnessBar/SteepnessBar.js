@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Bar from '@commonComp/Bar/Bar';
 
-export default class GameScreen extends React.Component{
+import './SteepnessBar.css';
+
+export default class SteepnessBar extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Steepness-Bar">
+				<Bar
+					orientation="vertical"
+					color="grey"
+					percentage={ this.props.steepnessPercentage }
+				/>
+			</div>
 		);
 	}
 };

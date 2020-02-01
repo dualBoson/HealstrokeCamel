@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import ZoneStructure from '../ZoneStructure/ZoneStructure';
 
-export default class GameScreen extends React.Component{
+import './HeatWave.css';
+
+export default class HeatWave extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="HeatWave">
+				<ZoneStructure
+					texture="HeatWave Texture"
+				/>
+			</div>
 		);
 	}
 };

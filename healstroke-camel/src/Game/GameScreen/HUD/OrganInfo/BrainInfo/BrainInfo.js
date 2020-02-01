@@ -1,12 +1,22 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import OrganInfoStructure from '../OrganInfoStructure/OrganInfoStructure';
+import BrainBar from './BrainBar/BrainBar';
 
-export default class GameScreen extends React.Component{
+import './BrainInfo.css';
+
+export default class BrainInfo extends React.Component{
 
 	render() {
 		
 		return (
+			<OrganInfoStructure
+				spareOrgans={{
+					type: null,
+					count: 0,
+				}}
+				organBar={ <BrainBar /> }
+			/>
 		);
 	}
 };

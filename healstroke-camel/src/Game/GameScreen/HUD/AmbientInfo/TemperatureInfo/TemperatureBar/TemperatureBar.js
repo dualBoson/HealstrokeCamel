@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Bar from '@commonComp/Bar/Bar';
 
-export default class GameScreen extends React.Component{
+import './TemperatureBar.css';
+
+export default class TemperatureBar extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Temperature-Bar">
+				<Bar
+					orientation="vertical"
+					color="grey"
+					percentage={ this.props.temperaturePercentage }
+				/>
+			</div>
 		);
 	}
 };

@@ -1,12 +1,21 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import Bar from '@commonComp/Bar/Bar';
 
-export default class GameScreen extends React.Component{
+import './KidneyBar.css';
+
+export default class KidneyBar extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Kidney-Bar">
+				<Bar
+					orientation="horizontal"
+					color="brown"
+					percentage={ this.props.kidneyPercentage }
+				/>
+			</div>
 		);
 	}
 };

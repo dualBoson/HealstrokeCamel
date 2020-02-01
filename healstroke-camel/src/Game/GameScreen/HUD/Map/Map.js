@@ -1,12 +1,15 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import './Map.css';
 
-export default class GameScreen extends React.Component{
+export default class Map extends React.Component{
 
 	render() {
 		
 		return (
+			<div>
+				Map
+			</div>
 		);
 	}
 };

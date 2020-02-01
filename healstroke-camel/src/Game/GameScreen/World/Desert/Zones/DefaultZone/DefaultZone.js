@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import ZoneStructure from '../ZoneStructure/ZoneStructure';
 
-export default class GameScreen extends React.Component{
+import './DefaultZone.css';
+
+export default class DefaultZone extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="DefaultZone">
+				<ZoneStructure
+					texture="DefaultZone Texture"
+				/>
+			</div>
 		);
 	}
 };

@@ -1,12 +1,19 @@
 import React	from 'react';
 
-import './GameScreen.css';
+import SpareOrgan from '../../OrganInfoStructure/SpareOrgan/SpareOrgan';
 
-export default class GameScreen extends React.Component{
+import './SpareHeart.css';
+
+export default class SpareHeart extends React.Component{
 
 	render() {
 		
 		return (
+			<div class="Spare-Heart">
+				<SpareOrgan
+					image="Spare Heart Image"
+				/>
+			</div>
 		);
 	}
 };
