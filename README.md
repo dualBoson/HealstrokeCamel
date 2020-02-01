@@ -1,2 +1,4 @@
 # Heatstroke_Camel
- I don't like sand. It's rough, coarse, irritating...and it gets everywhere!
+It's over, Anakin! I have the sand.
+
+credit: https://www.youtube.com/watch?v=hKMY2w__7S4
