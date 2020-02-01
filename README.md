@@ -1,2 +1,2 @@
 # Heatstroke_Camel
- Can you reach the oasis?
+ I don't like sand. It's rough, coarse, irritating...and it gets everywhere!
