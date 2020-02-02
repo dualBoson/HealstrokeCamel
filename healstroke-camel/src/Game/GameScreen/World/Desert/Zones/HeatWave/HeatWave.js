@@ -1,6 +1,7 @@
 import React	from 'react';
 
 import ZoneStructure from '../ZoneStructure/ZoneStructure';
+import HeatWaveTexture from '@Img/HeatWaveTexture.png';
 
 import css from './HeatWave.module.css';
 
@@ -11,7 +12,7 @@ export default class HeatWave extends React.Component {
 		return (
 			<div className={css.HeatWave}>
 				<ZoneStructure
-					texture="HeatWave Texture"
+					texture={ <img src={HeatWaveTexture} alt="HeatWaveTexture" /> }
 				/>
 			</div>
 		);

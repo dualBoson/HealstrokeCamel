@@ -1,6 +1,6 @@
 import React	from 'react';
 
-import Camel from '@Img/CamelPlaceholder.png'; // Tell Webpack this JS file uses this image
+import Camel from '@Img/CamelPlaceholder.png';
 
 import css from './Player.module.css';
 

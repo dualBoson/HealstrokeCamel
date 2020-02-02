@@ -1,6 +1,7 @@
 import React	from 'react';
 
 import ZoneStructure from '../ZoneStructure/ZoneStructure';
+import DefaultZoneTexture from '@Img/DefaultZoneTexture.png';
 
 import css from './DefaultZone.module.css';
 
@@ -11,7 +12,7 @@ export default class DefaultZone extends React.Component {
 		return (
 			<div className={css.DefaultZone}>
 				<ZoneStructure
-					texture="DefaultZone Texture"
+					texture={ <img src={DefaultZoneTexture} alt="DefaultZoneTexture" /> }
 				/>
 			</div>
 		);

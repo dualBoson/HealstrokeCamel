@@ -1,6 +1,7 @@
 import React	from 'react';
 
 import ZoneStructure from '../ZoneStructure/ZoneStructure';
+import SandstormTexture from '@Img/SandstormTexture.png';
 
 import css from './Sandstorm.module.css';
 
@@ -11,7 +12,7 @@ export default class Sandstorm extends React.Component {
 		return (
 			<div className={css.Sandstorm}>
 				<ZoneStructure
-					texture="Sandstorm Texture"
+					texture={ <img src={SandstormTexture} alt="SandstormTexture" /> }
 				/>
 			</div>
 		);

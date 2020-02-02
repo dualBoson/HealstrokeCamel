@@ -5,6 +5,8 @@ import HeatWave from './Zones/HeatWave/HeatWave';
 import Sandstorm from './Zones/Sandstorm/Sandstorm';
 import DefaultZone from './Zones/DefaultZone/DefaultZone';
 
+//import DesertZoneDistribution
+
 import css from './Desert.module.css';
 
 export default class Desert extends React.Component {
@@ -36,6 +38,8 @@ export default class Desert extends React.Component {
 		//		React.cloneElement( <DefaultZone />/*, props*/ )
 		//	}
 		//);
+
+		//for() {}
 
 		const componentGrid = [
 			<DefaultZone />, <DefaultZone />, <HeatWave />, <DefaultZone />,
