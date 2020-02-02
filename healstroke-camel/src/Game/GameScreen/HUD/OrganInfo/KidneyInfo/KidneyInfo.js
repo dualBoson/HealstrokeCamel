@@ -12,11 +12,13 @@ export default class KidneyInfo extends React.Component {
 		
 		return (
 			<OrganInfoStructure
+				gridArea="kidney"
+				organImage="kidneyImage"
 				spareOrgans={{
 					type: <SpareKidney />,
-					count: this.props.organCount,
+					count: this.props.spareCount,
 				}}
-				organBar={ <KidneyBar   kidneyPercentage={this.props.kidneyPercentage} /> }
+				organBar={ <KidneyBar	kidneyPercentage={this.props.kidneyPercentage} /> }
 			/>
 		);
 	}

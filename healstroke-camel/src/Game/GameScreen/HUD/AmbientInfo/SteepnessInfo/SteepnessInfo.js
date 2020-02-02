@@ -12,6 +12,7 @@ export default class SteepnessInfo extends React.Component {
 		
 		return (
 			<AmbientInfoStructure
+				gridArea="steepness"
 				ambientSymbol={ <SteepnessSymbol /> }
 				ambientBar={ <SteepnessBar /> }
 			/>

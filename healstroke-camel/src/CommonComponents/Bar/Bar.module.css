@@ -1,21 +1,39 @@
 .BarContour {
-	border: 2px inset grey;
+	box-shadow: inset 0 0 5px 1px rgba(120,120,120,0.8);
+	display: grid;
+	justify-items: start;
+	align-items: end;
 }
 
 .horizontal {
 	height: 20px;
 	width: 100%;
+	justify-items: start;
+	align-items: stretch;
 }
 
 .vertical {
 	height: 100%;
 	width: 20px;
+	justify-items: stretch;
+	align-items: end;
 }
 
 .horizontal > .Bar {
 	height: 100%;
+	box-shadow:
+		inset 0 1px 0px 0 rgba(120,120,120,0.8),
+		inset 0 -1px 0px 0 rgba(120,120,120,0.8)
+	;
 }
 
 .vertical > .Bar {
 	width: 100%;
+	box-shadow:
+		inset 1px 0 0px 0 rgba(120,120,120,0.8),
+		inset -1px 0 0px 0 rgba(120,120,120,0.8)
+	;
+}
+
+.Bar {
 }

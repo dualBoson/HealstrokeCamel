@@ -1,24 +1,21 @@
 import React	from 'react';
 
+import OrganSymbol from './OrganSymbol/OrganSymbol';
+import OrganResources from './OrganResources/OrganResources';
+
 import css from './OrganInfoStructure.module.css';
 
 export default class OrganInfoStructure extends React.Component {
 
 	render() {
-		const spareOrgans = Array.from(
-			{ length: this.props.spareOrgans.count },
-			(_) => React.cloneElement( this.props.spareOrgans.type/*, props)*/ )
-		);
 		return (
-			<div>
-				{<ul>
-					{
-						spareOrgans.map(i => {
-							return <li>{i}</li>;
-						})
-					}
-				</ul>}
-				{this.props.organBar}
+			<div style={{ "grid-area": this.props.gridArea }} className={ css.OrganInfoStructure }>
+				<OrganSymbol organImage={ this.props.organImage } />
+				<OrganResources
+					spareCount={ this.props.spareOrgans.count }
+					organType={ this.props.spareOrgans.type }
+					organBar={ this.props.organBar }
+				/>
 			</div>
 		);
 	}

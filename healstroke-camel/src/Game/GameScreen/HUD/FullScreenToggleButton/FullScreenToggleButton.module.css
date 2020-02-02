@@ -1,4 +1,8 @@
 .FullScreenToggleButton {
+	grid-area: maxButton;
+	justify-self: end;
+	align-self: end;
+
 	height: 50px;
 	width: 50px;
 	transition: all 0.1s ease;

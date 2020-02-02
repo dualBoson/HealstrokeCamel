@@ -1,0 +1,26 @@
+.OrganResources {
+	grid-area: organResources;
+	
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 3fr 2fr;
+	grid-template-areas: 
+		"spareOrgans"
+		"organBar"
+	;
+	grid-gap: 10px;
+	justify-content: end;
+	align-content: end;
+}
+
+.spareOrgans {
+	grid-area: spareOrgans;
+
+	width: 100%;
+	
+	display: grid;
+	grid-gap: 5px;
+	justify-items: end;
+	align-items: end;
+	grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+}

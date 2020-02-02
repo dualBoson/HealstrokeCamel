@@ -1,5 +1,21 @@
 .HUD {
+	z-index: 200;
+
 	height: 100%;
 	width: 100%;
-	background-color: rgba(30.6, 45.5, 33.7, 0.2);
+	position: absolute;
+
+	display: grid;
+	grid-template-columns: [bigMap-start] 5px 50px auto 135px 50px 5px[bigMap-end];
+	grid-template-rows: 5px 185px auto 50px 5px;
+	grid-template-areas: 
+		"....		....		....		map			map			map"
+		"....		water		.....		map			map			map"
+		"....		water		.....		ambient		ambient		....."
+		"....		water		organ		organ		maxButton	....."
+		"....		....		....		....		....		...."
+	;
+	grid-gap: 10px;
+	justify-content: stretch;
+	align-content: stretch;
 }

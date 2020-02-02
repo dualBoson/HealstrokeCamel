@@ -8,7 +8,7 @@ export default class GameSymbol extends React.Component {
 		
 		return (
 			<div className={css.GameSymbolBox}>
-				{ /*this.props.image*/ }
+				{ this.props.image }
 			</div>
 		);
 	}

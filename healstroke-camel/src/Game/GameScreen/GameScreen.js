@@ -51,10 +51,12 @@ export default class GameScreen extends React.Component {
 		}
 		
 		return (
-			<div className={css.GameScreen}>
-				<RepairScreen />
-				<HUD />
-				<World />
+			<div className={css.GameScreenWrapper}>
+				<div className={css.GameScreen}>
+					{/*<RepairScreen />*/}
+					<HUD />
+					<World />
+				</div>
 			</div>
 		);
 	}

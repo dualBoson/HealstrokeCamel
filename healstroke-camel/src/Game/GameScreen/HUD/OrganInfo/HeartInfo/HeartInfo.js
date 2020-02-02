@@ -12,9 +12,10 @@ export default class HeartInfo extends React.Component {
 		
 		return (
 			<OrganInfoStructure
+				gridArea="heart"
 				spareOrgans={{
 					type: <SpareHeart />,
-					count: this.props.organCount
+					count: this.props.spareCount,
 				}}
 				organBar={ <HeartBar  heartPercentage={this.props.heartPercentage} /> }
 			/>

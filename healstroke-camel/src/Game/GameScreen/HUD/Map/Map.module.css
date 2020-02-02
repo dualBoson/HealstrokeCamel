@@ -1,4 +1,7 @@
 .Map {
+	grid-area: map;
+	justify-self: end;
+
 	height: 200px;
 	width: 200px;
 	background-color: green;

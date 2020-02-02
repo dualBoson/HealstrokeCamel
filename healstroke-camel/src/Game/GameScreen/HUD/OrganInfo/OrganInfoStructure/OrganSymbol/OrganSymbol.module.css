@@ -1,0 +1,5 @@
+.OrganSymbol {
+	grid-area: organSymbol;
+	justify-self: center;
+	align-self: center;
+}

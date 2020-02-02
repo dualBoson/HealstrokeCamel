@@ -1,0 +1,10 @@
+.OrganInfoStructure {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-areas: 
+		"organSymbol organResources"
+	;
+	grid-gap: 10px;
+	justify-items: center;
+	align-items: end;
+}

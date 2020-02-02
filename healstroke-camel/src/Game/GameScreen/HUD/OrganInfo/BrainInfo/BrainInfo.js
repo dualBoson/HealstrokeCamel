@@ -11,6 +11,7 @@ export default class BrainInfo extends React.Component {
 		
 		return (
 			<OrganInfoStructure
+				gridArea="brain"
 				spareOrgans={{
 					type: null,
 					count: 0,

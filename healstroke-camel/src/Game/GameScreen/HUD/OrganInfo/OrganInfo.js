@@ -12,8 +12,8 @@ export default class OrganInfo extends React.Component {
 		
 		return (
 			<div className={css.OrganInfo}>
-				<KidneyInfo kidneyPercentage="40%"/>
-				<HeartInfo  heartPercentage="50%"/>
+				<KidneyInfo kidneyPercentage="40%" spareCount={2}/>
+				<HeartInfo  heartPercentage="50%" spareCount={1}/>
 				<BrainInfo  brainPercentage="60%"/>
 			</div>
 		);

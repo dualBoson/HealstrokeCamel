@@ -1,0 +1,18 @@
+.AmbientInfo {
+	grid-area: ambient;
+	justify-self: end;
+
+	height: 100%;
+	width: 100%;
+
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 
+		"temperature"
+		"wind"
+		"steepness"
+	;
+	grid-gap: 20px;
+	justify-content: stretch;
+	align-content: stretch;
+}

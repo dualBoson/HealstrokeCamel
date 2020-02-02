@@ -1,0 +1,16 @@
+.OrganInfo {
+	grid-area: organ;
+	align-self: end;
+
+	height: 100%;
+	width: 100%;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+		"kidney		heart		brain"
+	;
+	grid-gap: 20px;
+	justify-content: stretch;
+	align-content: stretch;
+}

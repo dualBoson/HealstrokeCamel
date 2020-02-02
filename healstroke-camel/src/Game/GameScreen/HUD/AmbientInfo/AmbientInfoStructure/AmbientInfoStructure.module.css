@@ -1,0 +1,22 @@
+.AmbientInfoStructure {
+	height: 100%;
+	width: 100%;
+	padding: 2px;
+
+	display: grid;
+	grid-template-columns: 20px auto;
+	grid-template-areas: 
+		"symbol		bar"
+	;
+	grid-gap: 20px;
+	justify-content: end;
+	align-content: stretch;
+}
+
+.symbolWrapper {
+	grid-area: symbol;
+}
+
+.barWrapper {
+	grid-area: bar;
+}

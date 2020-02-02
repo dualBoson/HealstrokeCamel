@@ -12,4 +12,6 @@
 	grid-gap: 0px;
 	justify-items: stretch;
 	align-items: stretch;
+	justify-content: stretch;
+	align-content: stretch;
 }
