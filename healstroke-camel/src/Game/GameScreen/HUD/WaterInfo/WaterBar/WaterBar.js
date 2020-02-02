@@ -9,7 +9,7 @@ export default class WaterBar extends React.Component{
 	render() {
 		
 		return (
-			<div class="Water-Bar">
+			<div className="Water-Bar">
 				<Bar
 					orientation="vertical"
 					color="blue"

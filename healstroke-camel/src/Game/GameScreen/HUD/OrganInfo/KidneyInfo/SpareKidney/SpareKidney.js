@@ -9,7 +9,7 @@ export default class SpareKidney extends React.Component{
 	render() {
 		
 		return (
-			<div class="Spare-Kidney">
+			<div className="Spare-Kidney">
 				<SpareOrgan
 					image="Spare Kidney Image"
 				/>

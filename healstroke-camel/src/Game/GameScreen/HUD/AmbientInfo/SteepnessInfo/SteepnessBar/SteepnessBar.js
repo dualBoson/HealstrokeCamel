@@ -9,7 +9,7 @@ export default class SteepnessBar extends React.Component{
 	render() {
 		
 		return (
-			<div class="Steepness-Bar">
+			<div className="Steepness-Bar">
 				<Bar
 					orientation="vertical"
 					color="grey"

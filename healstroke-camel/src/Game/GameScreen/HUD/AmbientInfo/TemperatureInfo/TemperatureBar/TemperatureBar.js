@@ -9,7 +9,7 @@ export default class TemperatureBar extends React.Component{
 	render() {
 		
 		return (
-			<div class="Temperature-Bar">
+			<div className="Temperature-Bar">
 				<Bar
 					orientation="vertical"
 					color="grey"

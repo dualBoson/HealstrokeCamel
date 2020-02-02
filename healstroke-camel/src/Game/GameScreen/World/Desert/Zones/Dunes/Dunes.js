@@ -9,7 +9,7 @@ export default class Dunes extends React.Component{
 	render() {
 		
 		return (
-			<div class="Dunes">
+			<div className="Dunes">
 				<ZoneStructure
 					texture="Dunes Texture"
 				/>

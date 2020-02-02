@@ -9,7 +9,7 @@ export default class Sandstorm extends React.Component{
 	render() {
 		
 		return (
-			<div class="Sandstorm">
+			<div className="Sandstorm">
 				<ZoneStructure
 					texture="Sandstorm Texture"
 				/>

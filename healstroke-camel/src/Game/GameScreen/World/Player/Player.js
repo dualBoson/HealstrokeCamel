@@ -7,7 +7,7 @@ export default class Player extends React.Component{
 	render() {
 		
 		return (
-			<div class="Player">
+			<div className="Player">
 				Player
 			</div>
 		);

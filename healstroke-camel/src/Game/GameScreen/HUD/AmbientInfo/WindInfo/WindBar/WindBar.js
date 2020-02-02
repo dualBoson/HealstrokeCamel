@@ -9,7 +9,7 @@ export default class WindBar extends React.Component{
 	render() {
 		
 		return (
-			<div class="Wind-Bar">
+			<div className="Wind-Bar">
 				<Bar
 					orientation="vertical"
 					color="grey"

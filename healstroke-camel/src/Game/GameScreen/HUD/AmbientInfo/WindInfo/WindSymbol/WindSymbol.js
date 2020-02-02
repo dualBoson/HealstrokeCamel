@@ -9,7 +9,7 @@ export default class WindSymbol extends React.Component{
 	render() {
 		
 		return (
-			<div class="Wind-Symbol">
+			<div className="Wind-Symbol">
 				<GameSymbol
 					image="Wind Image"
 				/>

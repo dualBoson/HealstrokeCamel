@@ -10,7 +10,7 @@ export default class World extends React.Component{
 	render() {
 		
 		return (
-			<div class="World">
+			<div className="World">
 				<Player />
 				<Desert />
 			</div>

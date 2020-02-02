@@ -9,7 +9,7 @@ export default class DefaultZone extends React.Component{
 	render() {
 		
 		return (
-			<div class="DefaultZone">
+			<div className="DefaultZone">
 				<ZoneStructure
 					texture="DefaultZone Texture"
 				/>

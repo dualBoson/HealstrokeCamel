@@ -15,7 +15,7 @@ export default class Inventory extends React.Component{
 		]
 		
 		return (
-			<div class="Inventory">
+			<div className="Inventory">
 				{ componentGrid }
 			</div>
 		);

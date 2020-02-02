@@ -7,7 +7,7 @@ export default class FullScreenToggleButton extends React.Component{
 	render() {
 		
 		return (
-			<div class="FullScreenToggleButton">
+			<div className="FullScreenToggleButton">
 				FullScreenToggleButton
 			</div>
 		);

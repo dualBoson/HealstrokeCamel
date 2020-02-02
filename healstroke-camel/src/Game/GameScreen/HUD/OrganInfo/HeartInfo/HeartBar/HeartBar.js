@@ -9,7 +9,7 @@ export default class HeartBar extends React.Component{
 	render() {
 		
 		return (
-			<div class="Heart-Bar">
+			<div className="Heart-Bar">
 				<Bar
 					orientation="horizontal"
 					color="red"

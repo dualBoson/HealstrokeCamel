@@ -10,7 +10,7 @@ export default class RepairScreen extends React.Component{
 	render() {
 		
 		return (
-			<div class="Repair-Screen">
+			<div className="Repair-Screen">
 				<Camel />
 				<Inventory />
 			</div>

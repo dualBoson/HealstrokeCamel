@@ -9,7 +9,7 @@ export default class TemperatureSymbol extends React.Component{
 	render() {
 		
 		return (
-			<div class="Temperature-Symbol">
+			<div className="Temperature-Symbol">
 				<GameSymbol
 					image="Temperature Image"
 				/>

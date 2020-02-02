@@ -9,7 +9,7 @@ export default class BrainBar extends React.Component{
 	render() {
 		
 		return (
-			<div class="Brain-Bar">
+			<div className="Brain-Bar">
 				<Bar
 					orientation="horizontal"
 					color="grey"

@@ -8,13 +8,13 @@ export default class RepairHatchStructure extends React.Component{
 		const hatchCenter = this.props.open ? "Open-Hatch" : "Closed-Hatch";
 		
 		return (
-			<div class="Repair-Hatch-Structure">
-				<div class="Repair-Hatch-Rim">
-					<div class={ "Hatch-Center " + hatchCenter }>
+			<div className="Repair-Hatch-Structure">
+				<div className="Repair-Hatch-Rim">
+					<div className={ "Hatch-Center " + hatchCenter }>
 						{ this.props.organHatchImage }
 					</div>
 				</div>
-				<div class="Repair-Hatch-Screw">
+				<div className="Repair-Hatch-Screw">
 				</div>
 			</div>
 		);

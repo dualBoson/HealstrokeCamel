@@ -9,7 +9,7 @@ export default class HeatWave extends React.Component{
 	render() {
 		
 		return (
-			<div class="HeatWave">
+			<div className="HeatWave">
 				<ZoneStructure
 					texture="HeatWave Texture"
 				/>

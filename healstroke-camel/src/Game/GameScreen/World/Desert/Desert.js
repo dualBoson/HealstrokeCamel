@@ -45,7 +45,7 @@ export default class Desert extends React.Component{
 		]
 		
 		return (
-			<div class="Desert">
+			<div className="Desert">
 				{ componentGrid }
 			</div>
 		);

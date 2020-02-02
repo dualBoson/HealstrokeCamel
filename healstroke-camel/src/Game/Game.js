@@ -7,7 +7,7 @@ import './Game.css';
 
 export default function Game() {
 	return (
-		<div class="Game">
+		<div className="Game">
 
 			<Header />
 

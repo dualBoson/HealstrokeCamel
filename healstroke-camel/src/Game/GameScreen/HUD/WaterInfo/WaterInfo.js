@@ -10,7 +10,7 @@ export default class WaterInfo extends React.Component{
 	render() {
 		
 		return (
-			<div class="Water-Info">
+			<div className="Water-Info">
 				<WaterBar />
 				<WaterBottle />
 			</div>

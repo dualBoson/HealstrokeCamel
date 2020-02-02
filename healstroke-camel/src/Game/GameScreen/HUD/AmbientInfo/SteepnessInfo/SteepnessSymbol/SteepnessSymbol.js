@@ -9,7 +9,7 @@ export default class SteepnessSymbol extends React.Component{
 	render() {
 		
 		return (
-			<div class="Steepness-Symbol">
+			<div className="Steepness-Symbol">
 				<GameSymbol
 					image="Steepness Image"
 				/>

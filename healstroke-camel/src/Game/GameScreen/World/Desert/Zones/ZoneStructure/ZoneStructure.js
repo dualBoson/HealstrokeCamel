@@ -7,7 +7,7 @@ export default class ZoneStructure extends React.Component{
 	render() {
 		
 		return (
-			<div class="Zone-Structure">
+			<div className="Zone-Structure">
 				ZoneStructure
 				{ this.props.texture }
 			</div>

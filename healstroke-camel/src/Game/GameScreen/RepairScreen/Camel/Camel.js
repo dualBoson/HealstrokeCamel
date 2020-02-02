@@ -10,12 +10,12 @@ export default class Camel extends React.Component{
 	render() {
 		
 		return (
-			<div class="Camel">
+			<div className="Camel">
 				Camel Image
-				<div class="Camel-Left-Hatch">
+				<div className="Camel-Left-Hatch">
 					<KidneyHatch />
 				</div>
-				<div class="Camel-Right-Hatch">
+				<div className="Camel-Right-Hatch">
 					<HeartHatch />
 				</div>
 			</div>

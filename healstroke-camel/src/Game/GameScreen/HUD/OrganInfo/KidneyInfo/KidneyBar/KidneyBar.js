@@ -9,7 +9,7 @@ export default class KidneyBar extends React.Component{
 	render() {
 		
 		return (
-			<div class="Kidney-Bar">
+			<div className="Kidney-Bar">
 				<Bar
 					orientation="horizontal"
 					color="brown"

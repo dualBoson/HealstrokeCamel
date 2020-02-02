@@ -7,7 +7,7 @@ export default class SpareOrgan extends React.Component{
 	render() {
 		
 		return (
-			<div class="Spare-Organ">
+			<div className="Spare-Organ">
 				SpareOrgan
 				{ this.props.image }
 			</div>
