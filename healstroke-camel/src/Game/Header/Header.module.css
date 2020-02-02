@@ -1,0 +1,45 @@
+.Header {
+	grid-area: header;
+	background: radial-gradient(
+		ellipse 70% 85% at 105% -5%,
+		rgba(255,255,255,1)	10%,
+		rgba(239,235,184,1)	20%,
+		rgba(241,231,103,1)	40%,
+		rgba(239,174,45,1)	70%,
+		rgba(198,121,27,1)	94%,
+		rgba(165,73,23,1)	100%
+	);
+	/*linear-gradient(
+		30deg,
+		rgba(165,73,23,1)	30%,
+		rgba(198,121,27,1)	40%,
+		rgba(239,174,45,1)	50%,
+		rgba(241,231,103,1)	77%,
+		rgba(239,235,184,1)	94%,
+		rgba(255,255,255,1)	100%
+	);*/
+	padding: 3vmin 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(28px + 2vmin);
+	text-shadow:
+		1.00px		-1.15px		1.00px		rgba(239,174,45,1),
+		-2.38px		1.37px		1.16px		rgba(76,22,0,0.83),
+		-2.83px		1.63px		1.35px		rgba(81, 24, 0,0.68),
+		-3.36px		1.94px		1.57px		rgba(86, 27, 1,0.56),
+		-4.00px		2.31px		1.82px		rgba(91, 30, 2,0.46),
+		-4.76px		2.75px		2.11px		rgba(96, 33, 3,0.38),
+		-5.66px		3.27px		2.45px		rgba(101, 36, 4,0.32),
+		-6.73px		3.88px		2.84px		rgba(106, 39, 4, 026),
+		-8.00px		4.62px		3.30px		rgba(111, 42, 5,0.22),
+		-9.51px		5.49px		3.83px		rgba(116, 45, 6,0.18),
+		-11.31px	6.53px		4.45px		rgba(121, 48, 7,0.15),
+		-13.45px	7.77px		5.17px		rgba(126, 51, 8,0.12),
+		-16.00px	9.24px		6.00px		rgba(132, 54, 9,0.1)
+	;
+	color: rgba(193,154,107,1);
+	overflow: hidden;
+	box-shadow: inset 0px -50px 20px -20px rgba(9, 9, 9, 1);
+}

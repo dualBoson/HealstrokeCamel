@@ -2,9 +2,9 @@ import React	from 'react';
 
 import RepairHatchStructure from '../RepairHatchStructure/RepairHatchStructure';
 
-import './KidneyHatch.css';
+import css from './KidneyHatch.module.css';
 
-export default class KidneyHatch extends React.Component{
+export default class KidneyHatch extends React.Component {
 
 	render() {
 		

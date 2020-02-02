@@ -6,14 +6,14 @@ import AmbientInfo from './AmbientInfo/AmbientInfo';
 import OrganInfo from './OrganInfo/OrganInfo';
 import FullScreenToggleButton from './FullScreenToggleButton/FullScreenToggleButton';
 
-import './HUD.css';
+import css from './HUD.module.css';
 
-export default class HUD extends React.Component{
+export default class HUD extends React.Component {
 
 	render() {
 		
 		return (
-			<div>
+			<div className={css.HUD}>
 				<Map />
 				<WaterInfo />
 				<AmbientInfo />

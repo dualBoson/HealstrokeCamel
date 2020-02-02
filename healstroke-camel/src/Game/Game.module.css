@@ -1,0 +1,15 @@
+.Game {
+	text-align: center;
+	display: grid;
+	grid-template-columns: [fullscreen-start] 50px auto 50px [fullscreen-end];
+	grid-template-rows: 120px 20px 800px 10px auto;
+	grid-template-areas: 
+		"header			header		header"
+		"spacer			spacer		spacer"
+		"left-margin	central		right-margin"
+		"footer			footer		footer"
+	;
+	grid-gap: 0px;
+	justify-items: stretch;
+	align-items: stretch;
+}

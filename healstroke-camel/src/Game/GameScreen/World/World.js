@@ -3,14 +3,14 @@ import React	from 'react';
 import Player from './Player/Player';
 import Desert from './Desert/Desert';
 
-import './World.css';
+import css from './World.module.css';
 
-export default class World extends React.Component{
+export default class World extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="World">
+			<div className={css.World}>
 				<Player />
 				<Desert />
 			</div>

@@ -1,21 +1,16 @@
 import React	from 'react';
 
-import Bar from '@commonComp/Bar/Bar';
+import AmbientBar from '../../AmbientInfoStructure/AmbientBar/AmbientBar';
 
-import './WindBar.css';
-
-export default class WindBar extends React.Component{
+export default class WindBar extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Wind-Bar">
-				<Bar
-					orientation="vertical"
-					color="grey"
-					percentage={ this.props.windPercentage }
-				/>
-			</div>
+			<AmbientBar
+				ambientColor="powderblue"
+				ambientPercentage={ this.props.windPercentage }
+			/>
 		);
 	}
 };

@@ -4,9 +4,9 @@ import OrganInfoStructure from '../OrganInfoStructure/OrganInfoStructure';
 import SpareHeart from './SpareHeart/SpareHeart';
 import HeartBar from './HeartBar/HeartBar';
 
-import './HeartInfo.css';
+import css from './HeartInfo.module.css';
 
-export default class HeartInfo extends React.Component{
+export default class HeartInfo extends React.Component {
 
 	render() {
 		
@@ -16,7 +16,7 @@ export default class HeartInfo extends React.Component{
 					type: <SpareHeart />,
 					count: this.props.organCount
 				}}
-				organBar={ <HeartBar /> }
+				organBar={ <HeartBar  heartPercentage={this.props.heartPercentage} /> }
 			/>
 		);
 	}

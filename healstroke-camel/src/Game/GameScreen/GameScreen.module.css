@@ -1,0 +1,22 @@
+.GameScreen {
+	grid-area: central;
+	height: 450px;
+	width: 800px;
+	/*background-color: #282c34;*/
+	position: relative;
+
+	background: radial-gradient(
+		circle at center,
+		rgba(198,198,198,0)		57%,
+		rgba(198,0,198,0.57)	75%,
+		rgba(225,0,225,0.85)	84%,
+		rgba(255,0,255,0.32)	94%,
+		rgba(255,0,255,0)		100%
+	);
+}
+
+.fullscreen {
+	grid-area: fullscreen;
+	height: 100%;
+	width: 100%;
+}

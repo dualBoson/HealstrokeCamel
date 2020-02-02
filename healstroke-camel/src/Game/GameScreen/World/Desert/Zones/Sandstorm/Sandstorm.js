@@ -2,14 +2,14 @@ import React	from 'react';
 
 import ZoneStructure from '../ZoneStructure/ZoneStructure';
 
-import './Sandstorm.css';
+import css from './Sandstorm.module.css';
 
-export default class Sandstorm extends React.Component{
+export default class Sandstorm extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Sandstorm">
+			<div className={css.Sandstorm}>
 				<ZoneStructure
 					texture="Sandstorm Texture"
 				/>

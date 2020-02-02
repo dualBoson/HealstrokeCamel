@@ -2,9 +2,9 @@ import React	from 'react';
 
 import Item from './Item/Item';
 
-import './Inventory.css';
+import css from './Inventory.module.css';
 
-export default class Inventory extends React.Component{
+export default class Inventory extends React.Component {
 
 	render() {
 		
@@ -15,7 +15,7 @@ export default class Inventory extends React.Component{
 		]
 		
 		return (
-			<div className="Inventory">
+			<div className={css.Inventory}>
 				{ componentGrid }
 			</div>
 		);

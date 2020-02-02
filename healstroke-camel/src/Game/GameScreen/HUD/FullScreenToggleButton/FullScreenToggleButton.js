@@ -1,14 +1,13 @@
 import React	from 'react';
 
-import './FullScreenToggleButton.css';
+import css from './FullScreenToggleButton.module.css';
 
-export default class FullScreenToggleButton extends React.Component{
+export default class FullScreenToggleButton extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="FullScreenToggleButton">
-				FullScreenToggleButton
+			<div className={css.FullScreenToggleButton}>
 			</div>
 		);
 	}

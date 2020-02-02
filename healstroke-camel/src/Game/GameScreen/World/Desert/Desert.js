@@ -5,9 +5,9 @@ import HeatWave from './Zones/HeatWave/HeatWave';
 import Sandstorm from './Zones/Sandstorm/Sandstorm';
 import DefaultZone from './Zones/DefaultZone/DefaultZone';
 
-import './Desert.css';
+import css from './Desert.module.css';
 
-export default class Desert extends React.Component{
+export default class Desert extends React.Component {
 
 	render() {
 		//const zonesPositionList = {
@@ -45,7 +45,7 @@ export default class Desert extends React.Component{
 		]
 		
 		return (
-			<div className="Desert">
+			<div className={css.Desert}>
 				{ componentGrid }
 			</div>
 		);

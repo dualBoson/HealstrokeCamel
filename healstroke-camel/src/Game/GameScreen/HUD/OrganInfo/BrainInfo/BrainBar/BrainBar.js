@@ -1,21 +1,16 @@
 import React	from 'react';
 
-import Bar from '@commonComp/Bar/Bar';
+import OrganBar from '../../OrganInfoStructure/OrganBar/OrganBar';
 
-import './BrainBar.css';
-
-export default class BrainBar extends React.Component{
+export default class BrainBar extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Brain-Bar">
-				<Bar
-					orientation="horizontal"
-					color="grey"
-					percentage={ this.props.brainPercentage }
-				/>
-			</div>
+			<OrganBar
+				organColor="whitesmoke"
+				organPercentage={ this.props.brainPercentage }
+			/>
 		);
 	}
 };

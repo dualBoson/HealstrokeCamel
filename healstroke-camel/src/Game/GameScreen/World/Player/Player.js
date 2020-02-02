@@ -1,13 +1,13 @@
 import React	from 'react';
 
-import './Player.css';
+import css from './Player.module.css';
 
-export default class Player extends React.Component{
+export default class Player extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Player">
+			<div className={css.Player}>
 				Player
 			</div>
 		);

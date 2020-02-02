@@ -4,9 +4,9 @@ import OrganInfoStructure from '../OrganInfoStructure/OrganInfoStructure';
 import SpareKidney from './SpareKidney/SpareKidney';
 import KidneyBar from './KidneyBar/KidneyBar';
 
-import './KidneyInfo.css';
+import css from './KidneyInfo.module.css';
 
-export default class KidneyInfo extends React.Component{
+export default class KidneyInfo extends React.Component {
 
 	render() {
 		
@@ -16,7 +16,7 @@ export default class KidneyInfo extends React.Component{
 					type: <SpareKidney />,
 					count: this.props.organCount,
 				}}
-				organBar={ <KidneyBar /> }
+				organBar={ <KidneyBar   kidneyPercentage={this.props.kidneyPercentage} /> }
 			/>
 		);
 	}

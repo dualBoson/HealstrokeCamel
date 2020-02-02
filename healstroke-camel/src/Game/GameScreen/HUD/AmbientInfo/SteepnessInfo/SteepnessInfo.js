@@ -4,9 +4,9 @@ import AmbientInfoStructure from '../AmbientInfoStructure/AmbientInfoStructure';
 import SteepnessSymbol from './SteepnessSymbol/SteepnessSymbol';
 import SteepnessBar from './SteepnessBar/SteepnessBar';
 
-import './SteepnessInfo.css';
+import css from './SteepnessInfo.module.css';
 
-export default class SteepnessInfo extends React.Component{
+export default class SteepnessInfo extends React.Component {
 
 	render() {
 		

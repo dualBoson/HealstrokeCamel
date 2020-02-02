@@ -4,9 +4,9 @@ import HUD from './HUD/HUD';
 import RepairScreen from './RepairScreen/RepairScreen';
 import World from './World/World';
 
-import './GameScreen.css';
+import css from './GameScreen.module.css';
 
-export default class GameScreen extends React.Component{
+export default class GameScreen extends React.Component {
 
 	constructor(props) {
 		super(props);
@@ -45,12 +45,16 @@ export default class GameScreen extends React.Component{
 	}
 
 	render() {
+		let screenClass = css.GameScreen;
+		if (this.state.fullscreen) {
+			screenClass += ' ' + css.fullscreen;
+		}
 		
 		return (
-			<div className="Game-Screen">
+			<div className={css.GameScreen}>
+				<RepairScreen />
 				<HUD />
 				<World />
-				<RepairScreen />
 			</div>
 		);
 	}

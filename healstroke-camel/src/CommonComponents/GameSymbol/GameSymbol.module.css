@@ -1,0 +1,11 @@
+.GameSymbolBox {
+	height: 10px;
+	width: 10px;
+	background-color: blue;
+}
+
+.GameSymbolBox:after {
+	content: "";
+	display: table;
+	clear: both;
+}

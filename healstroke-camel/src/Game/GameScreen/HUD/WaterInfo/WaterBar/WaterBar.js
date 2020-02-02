@@ -2,14 +2,14 @@ import React	from 'react';
 
 import Bar from '@commonComp/Bar/Bar';
 
-import './WaterBar.css';
+import css from './WaterBar.module.css';
 
-export default class WaterBar extends React.Component{
+export default class WaterBar extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Water-Bar">
+			<div className={css.WaterBar}>
 				<Bar
 					orientation="vertical"
 					color="blue"

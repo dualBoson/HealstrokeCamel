@@ -1,14 +1,18 @@
 import React	from 'react';
 
-import './WaterBottle.css';
+import GameSymbol from '@commonComp/GameSymbol/GameSymbol';
 
-export default class WaterBottle extends React.Component{
+import css from './WaterBottle.module.css';
+
+export default class WaterBottle extends React.Component {
 
 	render() {
 		
 		return (
-			<div>
-				WaterBottle
+			<div className={css.WaterBottle}>
+				<GameSymbol
+					image="WaterBottle Image"
+				/>
 			</div>
 		);
 	}

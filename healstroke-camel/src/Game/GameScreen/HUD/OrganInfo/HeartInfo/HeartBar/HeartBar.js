@@ -1,21 +1,16 @@
 import React	from 'react';
 
-import Bar from '@commonComp/Bar/Bar';
+import OrganBar from '../../OrganInfoStructure/OrganBar/OrganBar';
 
-import './HeartBar.css';
-
-export default class HeartBar extends React.Component{
+export default class HeartBar extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Heart-Bar">
-				<Bar
-					orientation="horizontal"
-					color="red"
-					percentage={ this.props.heartPercentage }
-				/>
-			</div>
+			<OrganBar
+				organColor="darkred"
+				organPercentage={ this.props.heartPercentage }
+			/>
 		);
 	}
 };

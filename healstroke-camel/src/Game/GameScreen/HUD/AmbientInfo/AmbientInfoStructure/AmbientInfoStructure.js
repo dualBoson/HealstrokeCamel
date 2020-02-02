@@ -1,14 +1,14 @@
 import React	from 'react';
 
-import './AmbientInfoStructure.css';
+import css from './AmbientInfoStructure.module.css';
 
-export default class AmbientInfoStructure extends React.Component{
+export default class AmbientInfoStructure extends React.Component {
 
 	render() {
 		return (
-			<div className="Ambient-Info-Structure">
-				{this.props.ambientSymbol}
-				{this.props.ambientBar}
+			<div className={css.AmbientInfoStructure}>
+				{ this.props.ambientSymbol }
+				{ this.props.ambientBar }
 			</div>
 		);
 	}

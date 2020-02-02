@@ -4,9 +4,9 @@ import AmbientInfoStructure from '../AmbientInfoStructure/AmbientInfoStructure';
 import TemperatureSymbol from './TemperatureSymbol/TemperatureSymbol';
 import TemperatureBar from './TemperatureBar/TemperatureBar';
 
-import './TemperatureInfo.css';
+import css from './TemperatureInfo.module.css';
 
-export default class TemperatureInfo extends React.Component{
+export default class TemperatureInfo extends React.Component {
 
 	render() {
 		

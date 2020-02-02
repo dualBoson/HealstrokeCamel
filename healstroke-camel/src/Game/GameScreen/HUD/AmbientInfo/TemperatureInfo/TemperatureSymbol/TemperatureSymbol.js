@@ -2,14 +2,14 @@ import React	from 'react';
 
 import GameSymbol from '@commonComp/GameSymbol/GameSymbol';
 
-import './TemperatureSymbol.css';
+import css from './TemperatureSymbol.module.css';
 
-export default class TemperatureSymbol extends React.Component{
+export default class TemperatureSymbol extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Temperature-Symbol">
+			<div className={css.TemperatureSymbol}>
 				<GameSymbol
 					image="Temperature Image"
 				/>

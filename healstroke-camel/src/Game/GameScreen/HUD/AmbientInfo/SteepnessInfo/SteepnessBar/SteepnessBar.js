@@ -1,21 +1,16 @@
 import React	from 'react';
 
-import Bar from '@commonComp/Bar/Bar';
+import AmbientBar from '../../AmbientInfoStructure/AmbientBar/AmbientBar';
 
-import './SteepnessBar.css';
-
-export default class SteepnessBar extends React.Component{
+export default class SteepnessBar extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Steepness-Bar">
-				<Bar
-					orientation="vertical"
-					color="grey"
-					percentage={ this.props.steepnessPercentage }
-				/>
-			</div>
+			<AmbientBar
+				ambientColor="olive"
+				ambientPercentage={ this.props.steepnessPercentage }
+			/>
 		);
 	}
 };

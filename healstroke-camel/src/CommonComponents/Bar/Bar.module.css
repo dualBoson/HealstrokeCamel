@@ -1,0 +1,21 @@
+.BarContour {
+	border: 2px inset grey;
+}
+
+.horizontal {
+	height: 20px;
+	width: 100%;
+}
+
+.vertical {
+	height: 100%;
+	width: 20px;
+}
+
+.horizontal > .Bar {
+	height: 100%;
+}
+
+.vertical > .Bar {
+	width: 100%;
+}

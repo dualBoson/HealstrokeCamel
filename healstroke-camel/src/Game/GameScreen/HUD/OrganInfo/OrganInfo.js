@@ -4,17 +4,17 @@ import KidneyInfo from './KidneyInfo/KidneyInfo';
 import HeartInfo from './HeartInfo/HeartInfo';
 import BrainInfo from './BrainInfo/BrainInfo';
 
-import './OrganInfo.css';
+import css from './OrganInfo.module.css';
 
-export default class OrganInfo extends React.Component{
+export default class OrganInfo extends React.Component {
 
 	render() {
 		
 		return (
-			<div>
-				<KidneyInfo />
-				<HeartInfo />
-				<BrainInfo />
+			<div className={css.OrganInfo}>
+				<KidneyInfo kidneyPercentage="40%"/>
+				<HeartInfo  heartPercentage="50%"/>
+				<BrainInfo  brainPercentage="60%"/>
 			</div>
 		);
 	}

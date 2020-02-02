@@ -1,15 +1,14 @@
 import React	from 'react';
 
-import './GameSymbol.css';
+import css from './GameSymbol.module.css';
 
-export default class GameSymbol extends React.Component{
+export default class GameSymbol extends React.Component {
 
 	render() {
 		
 		return (
-			<div>
-				GameSymbol
-				{ this.props.image }
+			<div className={css.GameSymbolBox}>
+				{ /*this.props.image*/ }
 			</div>
 		);
 	}

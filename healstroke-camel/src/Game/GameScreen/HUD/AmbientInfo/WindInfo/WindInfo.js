@@ -4,9 +4,9 @@ import AmbientInfoStructure from '../AmbientInfoStructure/AmbientInfoStructure';
 import WindSymbol from './WindSymbol/WindSymbol';
 import WindBar from './WindBar/WindBar';
 
-import './WindInfo.css';
+import css from './WindInfo.module.css';
 
-export default class WindInfo extends React.Component{
+export default class WindInfo extends React.Component {
 
 	render() {
 		

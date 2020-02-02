@@ -1,13 +1,13 @@
 import React	from 'react';
 
-import './ZoneStructure.css';
+import css from './ZoneStructure.module.css';
 
-export default class ZoneStructure extends React.Component{
+export default class ZoneStructure extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Zone-Structure">
+			<div className={css.ZoneStructure}>
 				ZoneStructure
 				{ this.props.texture }
 			</div>

@@ -2,14 +2,14 @@ import React	from 'react';
 
 import ZoneStructure from '../ZoneStructure/ZoneStructure';
 
-import './DefaultZone.css';
+import css from './DefaultZone.module.css';
 
-export default class DefaultZone extends React.Component{
+export default class DefaultZone extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="DefaultZone">
+			<div className={css.DefaultZone}>
 				<ZoneStructure
 					texture="DefaultZone Texture"
 				/>

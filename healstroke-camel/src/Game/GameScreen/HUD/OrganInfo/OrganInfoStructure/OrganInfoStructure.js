@@ -1,8 +1,8 @@
 import React	from 'react';
 
-import './OrganInfoStructure.css';
+import css from './OrganInfoStructure.module.css';
 
-export default class OrganInfoStructure extends React.Component{
+export default class OrganInfoStructure extends React.Component {
 
 	render() {
 		const spareOrgans = Array.from(

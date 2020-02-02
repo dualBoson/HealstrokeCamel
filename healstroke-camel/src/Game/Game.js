@@ -3,11 +3,11 @@ import React from 'react';
 import Header from './Header/Header';
 import GameScreen from './GameScreen/GameScreen';
 
-import './Game.css';
+import css from './Game.module.css';
 
 export default function Game() {
 	return (
-		<div className="Game">
+		<div className={css.Game}>
 
 			<Header />
 

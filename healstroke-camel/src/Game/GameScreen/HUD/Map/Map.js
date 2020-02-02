@@ -1,14 +1,17 @@
 import React	from 'react';
 
-import './Map.css';
+import css from './Map.module.css';
 
-export default class Map extends React.Component{
+export default class Map extends React.Component {
 
 	render() {
+		let mapClasses = css.Map;
+		if (this.props.maximized) {
+			mapClasses += " " + css.max;
+		}
 		
 		return (
-			<div>
-				Map
+			<div className={mapClasses}>
 			</div>
 		);
 	}

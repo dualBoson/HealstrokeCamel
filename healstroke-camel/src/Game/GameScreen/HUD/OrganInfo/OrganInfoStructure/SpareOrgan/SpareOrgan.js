@@ -1,15 +1,18 @@
 import React	from 'react';
 
-import './SpareOrgan.css';
+import GameSymbol from '@commonComp/GameSymbol/GameSymbol';
 
-export default class SpareOrgan extends React.Component{
+import css from './SpareOrgan.module.css';
+
+export default class SpareOrgan extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Spare-Organ">
-				SpareOrgan
-				{ this.props.image }
+			<div className={css.SpareOrgan}>
+				<GameSymbol
+					image={ this.props.image }
+				/>
 			</div>
 		);
 	}

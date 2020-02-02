@@ -3,14 +3,14 @@ import React	from 'react';
 import WaterBar from './WaterBar/WaterBar';
 import WaterBottle from './WaterBottle/WaterBottle';
 
-import './WaterInfo.css';
+import css from './WaterInfo.module.css';
 
-export default class WaterInfo extends React.Component{
+export default class WaterInfo extends React.Component {
 
 	render() {
 		
 		return (
-			<div className="Water-Info">
+			<div className={css.WaterInfo}>
 				<WaterBar />
 				<WaterBottle />
 			</div>

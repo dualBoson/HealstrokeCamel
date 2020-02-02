@@ -1,14 +1,14 @@
 import React	from 'react';
 
-import './Header.css';
+import css from './Header.module.css';
 
-export default class Header extends React.Component{
+export default class Header extends React.Component {
 
 	render() {
 		
 		return (
-			<header className="Header">
-				HealStrokeCamel
+			<header className={css.Header}>
+				healStrokeCamel
 			</header>
 		);
 	}

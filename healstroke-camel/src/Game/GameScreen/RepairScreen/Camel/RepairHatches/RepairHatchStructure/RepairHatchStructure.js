@@ -1,20 +1,20 @@
 import React	from 'react';
 
-import './RepairHatchStructure.css';
+import css from './RepairHatchStructure.module.css';
 
-export default class RepairHatchStructure extends React.Component{
+export default class RepairHatchStructure extends React.Component {
 
 	render() {
-		const hatchCenter = this.props.open ? "Open-Hatch" : "Closed-Hatch";
+		const hatchCenter = this.props.open ? "OpenHatch" : "ClosedHatch";
 		
 		return (
-			<div className="Repair-Hatch-Structure">
-				<div className="Repair-Hatch-Rim">
-					<div className={ "Hatch-Center " + hatchCenter }>
+			<div className={css.RepairHatchStructure}>
+				<div className={css.RepairHatchRim}>
+					<div className={ "HatchCenter " + hatchCenter }>
 						{ this.props.organHatchImage }
 					</div>
 				</div>
-				<div className="Repair-Hatch-Screw">
+				<div className={css.RepairHatchScrew}>
 				</div>
 			</div>
 		);

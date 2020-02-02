@@ -1,0 +1,22 @@
+.FullScreenToggleButton {
+	height: 50px;
+	width: 50px;
+	transition: all 0.1s ease;
+	background: radial-gradient(
+		circle at center,
+		rgba(198,198,198,0)		65%,
+		rgba(198,198,198,0.1)	80%,
+		rgba(225,225,225,0.2)	82%,
+		rgba(255,255,255,0)		100%
+	);
+}
+
+.FullScreenToggleButton:hover {
+	background: radial-gradient(
+		circle at center,
+		rgba(198,198,198,0)		65%,
+		rgba(198,198,198,0.3)	80%,
+		rgba(225,225,225,0.4)	82%,
+		rgba(255,255,255,0)		100%
+	);
+}
